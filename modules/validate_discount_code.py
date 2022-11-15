@@ -13,7 +13,7 @@ def validate_discount_code(discount_code):
     vs "heladoFrozen" = 14 caracteres de diferencia ('z', 'i', 'v', 'n',
     'o', 'm', '2', '0', 'd', 'p', '1', 'F', 'h', 'l')
     """
-
+    #For descending comparison
     final_diff=10000
     for code_word in _AVAILABLE_DISCOUNT_CODES:
         #Create and Reset buffer word list
